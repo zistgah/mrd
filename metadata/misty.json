@@ -1,0 +1,18 @@
+{
+  "upload_type": "publication",
+  "publication_type": "report",
+  "title": "Market Requirements for a federated research and creation estate: a typed relational ontology with explicit provenance classification",
+  "creators": [{ "name": "Choudhary, Abhishek", "affiliation": "AyeAI", "orcid": "0009-0002-0684-8320" }],
+  "description": "<p>This record documents the requirements of a federated estate of independently existing research and creation systems, expressed not as a product catalogue but as a typed relational ontology accompanied by a registry and a constitutional map. Components are described as sovereign systems that own their ontology, runtime, artifacts, evolution and users; interoperability between them is represented through typed edges rather than containment, so that a system participating in a shared environment is not thereby made a module of it.</p><p>The distinguishing feature is the treatment of provenance within the document itself. Every entity carries one of four classifications: corroborated in a durable record or live repository; named but incompletely recorded; present only in a prior synthesis produced by an assistant, which is explicitly marked as not constituting evidence; or unresolved, where the record does not contain the information and no substitute has been supplied. This responds to an identified failure mode in which a reconstruction becomes a document, the document is later consulted as a source, and a further reconstruction is built upon it, producing a chain of assertions with no external anchor.</p><p>The material comprises a constitutional layer distinguishing registry, provenance and evidence as separate concerns; lineage descriptions that preserve parallel branches rather than collapsing them into single genealogies; a component register with problem statements, scope including explicit refusals, ontological primitives with their forbidden substitutions, numbered requirements, invariants, observed failure modes, evidence requirements and open questions; and a statement of items deliberately left unresolved.</p><p>Both documents are generated from the accompanying machine-readable data rather than maintained by hand.</p>",
+  "keywords": ["requirements engineering","software ecosystems","provenance","research software",
+    "knowledge representation","typed ontology","federation","epistemic status",
+    "reproducibility","technical documentation"],
+  "license": "cc-by-sa-4.0",
+  "language": "eng",
+  "related_identifiers": [
+    { "identifier": "10.5281/zenodo.21948734", "relation": "describes", "scheme": "doi", "resource_type": "software" },
+    { "identifier": "10.5281/zenodo.22005507", "relation": "describes", "scheme": "doi", "resource_type": "software" },
+    { "identifier": "10.5281/zenodo.21436550", "relation": "describes", "scheme": "doi", "resource_type": "software" },
+    { "identifier": "10.5281/zenodo.20719388", "relation": "describes", "scheme": "doi", "resource_type": "software" }
+  ]
+}

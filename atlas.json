@@ -1,0 +1,387 @@
+{
+ "hierarchy": [
+  [
+   "AyeAI",
+   "the broader ecosystem and context",
+   "SYNTHESIS"
+  ],
+  [
+   "AyeAM",
+   "AyeAI Mission & Alignment Matrix — the mission-alignment layer",
+   "SYNTHESIS"
+  ],
+  [
+   "Zistgah",
+   "the estate-level integration environment",
+   "RETRIEVED"
+  ]
+ ],
+ "zistgah_roles": [
+  [
+   "Zistgah [Ontology]",
+   "the typed vocabulary of the estate"
+  ],
+  [
+   "Zistgah [Habitat]",
+   "the contextual envelope for the AGI era"
+  ],
+  [
+   "Zistgah [Estate]",
+   "the ecosystem of repositories and deposits"
+  ],
+  [
+   "Zistgah [Integration Context]",
+   "where independent systems meet"
+  ],
+  [
+   "Zistgah [Namespace]",
+   "the GitHub organisation and naming context"
+  ],
+  [
+   "Zistgah [Habitat-expansion]",
+   "the architecture for extending habitat"
+  ]
+ ],
+ "civilizational": [
+  [
+   "Zistgah",
+   "Persian / Islamicate",
+   "not to be generalised to 'Islam' without qualification"
+  ],
+  [
+   "Kaivalyik / Kaivalya",
+   "Indic, including the Advaita framing",
+   ""
+  ],
+  [
+   "Cosmopolis",
+   "Greek / Western-classical / cosmopolitan",
+   ""
+  ]
+ ],
+ "retracted": [
+  "Humanesque = human/equity substrate of a Kaivalyik Cosmopolis. NOT retrieved, explicitly withdrawn in the source document, and it must not re-enter the atlas because it makes the architecture look elegant."
+ ],
+ "lineages": {
+  "linguistic": [
+   "ILM",
+   "Romenagri",
+   "HPS",
+   "Hindawi Environment"
+  ],
+  "cognitive": [
+   "PEDLER",
+   "LVF",
+   "MLCNE",
+   "CEM^s / CEM^b",
+   "Eco-CEM · KELP",
+   "RDK",
+   "HMSEI"
+  ],
+  "embodiment": [
+   "PEDLER",
+   "NI2A2",
+   "ANGEL-1 · ANGEL-2",
+   "TARA (ANGEL-2 renamed-as)"
+  ],
+  "programme": [
+   "Project VIKRAM",
+   "PAT.AL",
+   "PRATIK",
+   "VIDYA",
+   "TWISHA",
+   "CHAKRA",
+   "Misty"
+  ],
+  "semantic_compiler": [
+   "LLM Proposer",
+   "ACG grammar front-end",
+   "Verified AST",
+   "Lowering",
+   "Canonical Semantic IR (CKO · ULC · VUSC)",
+   "Constraint & Proof (Ontology + Lean + SMT/Z3)",
+   "Raising",
+   "Target AST",
+   "Verified Realization"
+  ],
+  "laboratory": [
+   "Holy Grail Laboratory",
+   "Dry / Wet Laboratory",
+   "Portable Laboratory",
+   "Four-Suitcase Model",
+   "Backpack Laboratory",
+   "Cloud Laboratory",
+   "Collaborator Network"
+  ],
+  "governance": [
+   "FAKIR",
+   "Marham",
+   "IWBT",
+   "VGC",
+   "Oracle Framework",
+   "Read Before Write",
+   "Retrieval Before Assumption",
+   "Provenance",
+   "Evidence"
+  ]
+ },
+ "restored": [
+  [
+   "Marham",
+   "Healing OS / healthcare system — dropped from the sovereign inventory and restored",
+   "SYNTHESIS"
+  ],
+  [
+   "Interglial",
+   "interconnection across cognitive, biological and system layers; operates CEM^b",
+   "PARTIAL"
+  ],
+  [
+   "Project VIKRAM",
+   "AI4All / civilizational AI programme, appearing in several typed roles",
+   "SYNTHESIS"
+  ],
+  [
+   "AyeAM",
+   "the mission-alignment layer",
+   "SYNTHESIS"
+  ],
+  [
+   "HEJLP",
+   "civilizational / constitutional programme",
+   "SYNTHESIS"
+  ],
+  [
+   "GramSheel",
+   "civilizational / constitutional programme; he directs the NGO",
+   "PARTIAL"
+  ],
+  [
+   "Romenagri",
+   "canonical lexical / representational layer — repeatedly dropped",
+   "SYNTHESIS"
+  ],
+  [
+   "Crystallized Intelligence",
+   "part of the conceptual definition of AGI",
+   "SYNTHESIS"
+  ]
+ ],
+ "agi_layer": [
+  [
+   "Kaivalya Quest",
+   "research programme"
+  ],
+  [
+   "Kaivalyik AGI",
+   "AGI architecture / concept"
+  ],
+  [
+   "AGI Sovereignty",
+   "sovereignty principle"
+  ],
+  [
+   "Kaivalyik Persistence Benchmark (KPB)",
+   "benchmark, connected to long-duration cognitive continuity"
+  ],
+  [
+   "Crystallized Intelligence",
+   "theoretical definition"
+  ],
+  [
+   "Long-Duration Cognitive Continuity",
+   "temporal continuity objective"
+  ]
+ ],
+ "ipr_four": [
+  [
+   "MISTI",
+   "the research / IPR / publication cycler and process"
+  ],
+  [
+   "MASI",
+   "the IPR governance and gating architecture"
+  ],
+  [
+   "IPR Process",
+   "the lifecycle"
+  ],
+  [
+   "G3",
+   "one specific gate inside MASI — a DOI is a dated public disclosure"
+  ]
+ ],
+ "farman": {
+  "Identity": [
+   "artifact identity",
+   "identifiers"
+  ],
+  "Ancestry": [
+   "parent / derivative relationships",
+   "transformation lineage"
+  ],
+  "Evidence": [
+   "evidence",
+   "attestations",
+   "receipts",
+   "verification artifacts",
+   "benchmarks"
+  ],
+  "Integrity": [
+   "hashes",
+   "checksums",
+   "timestamps",
+   "integrity records"
+  ],
+  "State": [
+   "Draft",
+   "Working",
+   "Verified",
+   "Sealed",
+   "Published",
+   "Superseded"
+  ],
+  "Publication": [
+   "repository",
+   "DOI",
+   "publication",
+   "disclosure"
+  ],
+  "Transmission": [
+   "semantic",
+   "representational",
+   "temporal",
+   "technological continuity"
+  ],
+  "Registry": [
+   "registry",
+   "metadata schema",
+   "provenance records",
+   "reproducibility infrastructure"
+  ]
+ },
+ "strata": [
+  [
+   "I — WHY",
+   "normative / constitutional",
+   "values · purpose · intent · rights · responsibilities"
+  ],
+  [
+   "II — HOW WE KNOW",
+   "epistemic",
+   "evidence · provenance · verification · truth conditions · epistemic status"
+  ],
+  [
+   "III — HOW WE BUILD",
+   "methodological / realization",
+   "methods · protocols · standards · cycles · projects"
+  ],
+  [
+   "IV — WHAT EXISTS",
+   "executable federation",
+   "artifacts · systems · components · records · states"
+  ]
+ ],
+ "edges": [
+  "parent-of",
+  "child-of",
+  "lineage-of",
+  "depends-on",
+  "implements",
+  "uses",
+  "governs",
+  "transforms",
+  "publishes",
+  "preserves",
+  "verifies",
+  "interoperates-with",
+  "renamed-as",
+  "related-to"
+ ],
+ "three_distinctions": [
+  [
+   "Registry",
+   "records identity"
+  ],
+  [
+   "Provenance",
+   "records ancestry and transformation"
+  ],
+  [
+   "Evidence",
+   "establishes what may actually be claimed"
+  ]
+ ],
+ "artefact_taxonomy": {
+  "classes": [
+   "papers",
+   "books",
+   "datasets",
+   "software",
+   "specifications",
+   "patents",
+   "experiments",
+   "benchmarks",
+   "models",
+   "multimodal media",
+   "publications",
+   "provenance records",
+   "DOI packages"
+  ],
+  "formats": [
+   "Markdown",
+   "HTML",
+   "PDF",
+   "EPUB",
+   "images",
+   "JSON",
+   "manifests",
+   "ZIP packages"
+  ]
+ },
+ "research_lifecycle": [
+  "question / hypothesis",
+  "design",
+  "experiment",
+  "data",
+  "analysis",
+  "benchmark",
+  "verification",
+  "publication / IPR",
+  "provenance"
+ ],
+ "rd_domains": [
+  "quantum computing",
+  "quantum acceleration",
+  "neuromorphic",
+  "photonic",
+  "DNA computing",
+  "memristors",
+  "spintronics",
+  "RISC-V",
+  "FPGA",
+  "CUDA",
+  "OpenMP",
+  "GPGPU",
+  "HBM",
+  "SRAM",
+  "BLAS",
+  "hardware/software co-design",
+  "BCI",
+  "EEG",
+  "Sim2Real",
+  "Real2Sim"
+ ],
+ "epistemic_rules": [
+  "Retrieval Before Assumption",
+  "Read Before Write",
+  "Verify Before Claim",
+  "Preserve Before Transformation"
+ ],
+ "epistemic_states": [
+  "[STATED]",
+  "[RETRIEVED]",
+  "[INFERRED]",
+  "[UNRESOLVED]"
+ ]
+}

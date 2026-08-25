@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>Market Requirements — the Zistgah estate</title>
+<meta name=description content="A typed relational ontology, a registry and a constitutional map. Every entity carries a provenance class.">
+<style>
+:root{--ink:#0f1219;--paper:#e6e9ef;--dim:rgba(230,233,239,.55);--rule:rgba(230,233,239,.13);
+--acc:#c9a227;--ret:#5ea88a;--par:#c8a44a;--syn:#7f8fb3;--unr:#b8543f;
+--disp:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+*{box-sizing:border-box}body{margin:0;background:var(--ink);color:var(--paper);font:16px/1.65 var(--mono)}
+.wrap{max-width:66rem;margin:0 auto;padding:3.5rem 1.25rem 6rem}
+h1{font-family:var(--disp);font-size:clamp(2.2rem,6vw,3.6rem);font-weight:400;margin:0 0 .3rem;letter-spacing:-.02em}
+.sub{color:var(--dim);max-width:56ch;margin:0 0 2rem;font-family:var(--disp);font-size:1.15rem}
+h2{font-family:var(--disp);font-size:1.5rem;font-weight:400;margin:2.6rem 0 .7rem;
+padding-bottom:.35rem;border-bottom:1px solid var(--rule)}
+table{width:100%;border-collapse:collapse;font-size:.82rem}
+th{text-align:left;font:600 .6rem/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;
+color:var(--acc);padding:.5rem .4rem;border-bottom:1px solid var(--rule)}
+td{padding:.42rem .4rem;border-bottom:1px solid rgba(230,233,239,.06);vertical-align:top}
+td b{font-weight:400}
+.p{font-size:.62rem;letter-spacing:.1em}
+.p[data-p=RETRIEVED]{color:var(--ret)}.p[data-p=PARTIAL]{color:var(--par)}
+.p[data-p=SYNTHESIS]{color:var(--syn)}.p[data-p=UNRESOLVED]{color:var(--unr)}
+.key{display:flex;gap:1.2rem;flex-wrap:wrap;font-size:.72rem;color:var(--dim);margin:.8rem 0 0}
+.key b{font-weight:400}
+a{color:var(--acc)}
+.warn{border-left:3px solid var(--unr);padding:.7rem 1rem;margin:2rem 0 0;color:var(--dim);font-size:.88rem}
+.docs{display:flex;gap:.5rem;flex-wrap:wrap;margin:1.4rem 0 0}
+.docs a{border:1px solid var(--rule);padding:.6rem .9rem;text-decoration:none;
+font:600 .68rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.docs a:hover{border-color:var(--acc)}
+</style></head><body><div class=wrap>
+<h1>Market Requirements</h1>
+<p class=sub>A typed relational ontology, a registry and a constitutional map for the Zistgah
+estate. Not a product catalogue.</p>
+<div class=docs>
+  <a href="../MRD-complete.md">The complete MRD</a>
+  <a href="../MRD-basic-all.md">Component register</a>
+  <a href="../components.json">components.json</a>
+  <a href="../atlas.json">atlas.json</a>
+</div>
+<h2>Provenance is carried on every entity</h2>
+<p style="color:var(--dim);max-width:58ch">A failure mode was identified in this work and named:
+an assistant reconstructs the estate, the reconstruction becomes a poster, the poster is read back
+as a source, and a new synthesis is built on it. Recursive self-sourcing. So retrieved fact,
+prior assistant synthesis, poster-derived inference and unresolved item are kept apart here.</p>
+<div class=key>
+  <span class=p data-p=RETRIEVED><b>RETRIEVED</b> corroborated in the record or a live repository</span>
+  <span class=p data-p=PARTIAL><b>PARTIAL</b> named, incompletely recorded</span>
+  <span class=p data-p=SYNTHESIS><b>SYNTHESIS</b> from a prior assistant's summary. Not evidence.</span>
+  <span class=p data-p=UNRESOLVED><b>UNRESOLVED</b> the record does not contain it</span>
+</div>
+<h2>26 components</h2>
+<table><thead><tr><th>component</th><th>tier</th><th>provenance</th><th>stage</th><th>DOI</th></tr></thead>
+<tbody><tr><td><b>The Physical Lab</b></td><td>Capability</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>to-be-finalised</td><td>—</td></tr><tr><td><b>Humanesque</b></td><td>Constitutional corpus</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>live-minted</td><td>21917807 · 21930508</td></tr><tr><td><b>Zamin</b></td><td>Hardware</td><td class=p data-p="PARTIAL">PARTIAL</td><td>design</td><td>—</td></tr><tr><td><b>Hindawi Programming System</b></td><td>Heritage / lineage</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>reconstruction</td><td>—</td></tr><tr><td><b>PRATIK</b></td><td>Kernel</td><td class=p data-p="PARTIAL">PARTIAL</td><td>mvp</td><td>—</td></tr><tr><td><b>Mez Cognitive Workbench</b></td><td>Laboratory</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>live-unsealed</td><td>—</td></tr><tr><td><b>AyeCNSe Forms</b></td><td>Product</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>live</td><td>—</td></tr><tr><td><b>ESL System</b></td><td>Product</td><td class=p data-p="PARTIAL">PARTIAL</td><td>v5-package</td><td>—</td></tr><tr><td><b>Candor</b></td><td>Protocol</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>live-mint-ready</td><td>—</td></tr><tr><td><b>PEDLER / QEDLER</b></td><td>Research programme</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>live-unminted</td><td>PEDLER 10.5281/zenodo.17497559</td></tr><tr><td><b>Quantum Neuromorphic BCI</b></td><td>Research programme</td><td class=p data-p="PARTIAL">PARTIAL</td><td>programme</td><td>—</td></tr><tr><td><b>Teaching and Drone Pedagogy</b></td><td>Service</td><td class=p data-p="PARTIAL">PARTIAL</td><td>operating</td><td>—</td></tr><tr><td><b>Litigation Simulation</b></td><td>Service / product</td><td class=p data-p="PARTIAL">PARTIAL</td><td>named-only</td><td>—</td></tr><tr><td><b>AAB</b></td><td>Sovereign system</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>live-defective</td><td>TWO concept DOIs — split lineage</td></tr><tr><td><b>CHAKRA</b></td><td>Sovereign system</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>live-v1.4.1</td><td>concept 10.5281/zenodo.21253628</td></tr><tr><td><b>FAKIR / UKOP</b></td><td>Sovereign system</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>live-minted-v2</td><td>10.5281/zenodo.21436550 · posters 21436552</td></tr><tr><td><b>GENIE</b></td><td>Sovereign system</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>live-minted</td><td>genie corpus minted; prompt-OS plate pending</td></tr><tr><td><b>Kitab</b></td><td>Sovereign system</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>live</td><td>—</td></tr><tr><td><b>Misty DoI</b></td><td>Sovereign system</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>live-pypi-1.0.1</td><td>10.5281/zenodo.20719388</td></tr><tr><td><b>Project ILM</b></td><td>Sovereign system</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>live</td><td>—</td></tr><tr><td><b>The Dome</b></td><td>Sovereign system</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>live</td><td>minted</td></tr><tr><td><b>Tok DOI</b></td><td>Sovereign system</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>live-minted</td><td>10.5281/zenodo.21402745</td></tr><tr><td><b>TransEg</b></td><td>Sovereign system</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>live-built-not-running</td><td>10.5281/zenodo.21321558</td></tr><tr><td><b>spiguard</b></td><td>Sovereign system</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>built-never-landed</td><td>—</td></tr><tr><td><b>The Six Output Cyclers</b></td><td>Sovereign systems</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>live-minted</td><td>21948734 · 22005507 · 22005575 · 22010869 · 22010962 · 22011073</td></tr><tr><td><b>Estate Management</b></td><td>Toolchain</td><td class=p data-p="RETRIEVED">RETRIEVED</td><td>live-defective</td><td>—</td></tr></tbody></table>
+<div class=warn><b>A DOI is a dated public disclosure.</b> India and the EPO have no general grace
+period. Nothing in this repository contains an unfiled patent claim, and the seed script refuses
+to mint if it finds one.</div>
+<p style="margin-top:3rem;color:var(--dim);font-size:.82rem">Copyright &copy; 1993&ndash;2026
+Abhishek Choudhary &middot; AyeAI &middot; ORCID 0009-0002-0684-8320 &middot; CC-BY-SA-4.0</p>
+</div></body></html>
