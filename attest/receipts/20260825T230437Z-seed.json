@@ -3,5 +3,5 @@
   "utc": "20260825T230437Z",
   "operation": "seed_mrd.sh 1.0.0",
   "repo": "zistgah/mrd",
-  "intent": "seed mrd 1.0.0"
+  "intent": "record DOI 10.5281/zenodo.22103202"
 }
